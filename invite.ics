@@ -1,0 +1,82 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:GMT Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=-1SU;BYMONTH=10
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T010000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=-1SU;BYMONTH=3
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;SENT-BY="mailto:alexia-raphaelle.ndongo-seh@hmrc.gov.uk":mailto:ecp
+ romote@hmrc.gov.uk
+DESCRIPTION;LANGUAGE=en-US:THE MSB FORUM IS BACK!\n\nGood afternoon\,\n\nWe
+  are pleased to invite you to join our upcoming MSB Online Forum on Monday
+  10 November 2025\, from 10:00 am - 12:00 pm.\n\nWe are excited to reintro
+ duce these events with a refreshed format and new opportunities for engage
+ ment.\n\nThis interactive session will include:\n\n  *\nAn introduction fr
+ om the new HMRC MSB Strategic Lead and MSB Illicit Finance Threat Lead\n  
+ *\nA horizon scan of upcoming priorities and opportunities for enhanced HM
+ RC-MSB collaboration\n  *\nSector-focused education\n  *\nDiscussions in b
+ reakout rooms designed to gather your feedback on what you would like to s
+ ee from us in future forums\; and how you'd like us to best cascade inform
+ ation & alerts to you.\n  *\nOpen Q&A segment\, an opportunity for you to 
+ ask questions related to the MSB sector.\n\nPlease note that these session
+ s cannot be recorded and AI-enabled recording devices are not allowed.\n\n
+ We look forward to your active participation and valuable insights during 
+ the session.\n\nIf you would like to submit any questions in advance\, ple
+ ase send them to ecpromote@hmrc.gov.uk . Please note: this mailbox is for 
+ forum-related queries only and cannot assist with individual registration 
+ or business-specific matters.\n\nFor any other queries\, please send them 
+ to the MLRCIT@hmrc.gov.uk\n\nTo help us plan effectively\, please confirm 
+ your attendance by accepting this calendar invitation. As spaces are limit
+ ed\, we encourage you to register as soon as possible.\n\nThis message and
+  any attachments are confidential. Unless you are the intended recipient\,
+  the information must not be used\, disclosed\, or copied to any other per
+ son who is not entitled to receive it. If you have received this message i
+ n error\, please notify the sender immediately and then delete it. The Com
+ missioners for HM Revenue and Customs are not liable for any personal view
+ s of the sender.\n\nTo help HMRC fight cybercrime\, forward suspicious ema
+ ils to phishing@hmrc.gov.uk and texts to 60599. Find advice and report tax
+  scam phone calls on GOV.UK.\n
+UID:040000008200E00074C5B7101A82E0080000000017DBED30143DDC01000000000000000
+ 01000000069BAAA8D0E82E040A75B4B22BDDEB448
+SUMMARY;LANGUAGE=en-US:HMRC's Money Service Business (MSB) Forum
+DTSTART;TZID=GMT Standard Time:20251110T100000
+DTEND;TZID=GMT Standard Time:20251110T120000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20251014T140948Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=en-US:
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:2124050854
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:TRUE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:TRUE
+X-MICROSOFT-LOCATIONS:[]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
